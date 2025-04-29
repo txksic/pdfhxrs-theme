@@ -1,11 +1,12 @@
-*/
+/*
 
 :root {
   --darkplus-bg: #000000;
-  --darkplus-bg2: #000000;
+  --darkplus-bg2: #111111;
   --darkplus-sec: #9200f3;
   --darkplus-links: #9200f3;
-  --darkplus-home-icon: url(https://i.imgur.com/RvlNQ7k.png);
+  --PH-home-icon: url(https://files.catbox.moe/2wemux.png);
+
   --watermark-filter-invert: 0%;
   --watermark-filter-sepia: 50%;
   --watermark-filter-saturate: 3000%;
@@ -13,6 +14,7 @@
   --watermark-filter-brightness: 70%;
   --watermark-filter-contrast: 200%;
 }
+
 
 .bg__960e4,
 .container_a2f514 {
