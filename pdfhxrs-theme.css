@@ -952,7 +952,7 @@ button[aria-label="Send a gift"] {
   left: 0;
   margin-left: 8px;
   content: url("https://files.catbox.moe/2wemux.png");
-  height: 25px;
+  height: 5px;
   display: inline-block;
   filter: invert(var(--watermark-filter-invert)) sepia(var(--watermark-filter-sepia)) saturate(var(--watermark-filter-saturate)) hue-rotate(var(--watermark-filter-hue-rotate)) brightness(var(--watermark-filter-brightness)) contrast(var(--watermark-filter-contrast));
 }
