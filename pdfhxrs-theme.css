@@ -1686,3 +1686,15 @@ button.button__67645 .lottieIcon__5eb9b svg path {
   background-color: var(--darkplus-bg);
   color: var(--darkplus-links);
 }
+#watermark {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 80px; /* Adjust size */
+  height: auto;
+  background-image: url('https://files.catbox.moe/2wemux.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1000;
+  opacity: 0.8;
+}
