@@ -15,6 +15,7 @@
   --watermark-filter-contrast: 200%;
 }
 
+
 .bg__960e4,
 .container_a2f514 {
   background-color: var(--darkplus-bg);
@@ -948,13 +949,16 @@ button[aria-label="Send a gift"] {
 
 
 .title_c38106:after {
+  content: "";
   position: absolute;
-  left: 0;
-  margin-left: 8px;
-  content: url("https://files.catbox.moe/2wemux.png");
-  height: 5px;
+  top: 5px;
+  left: 5px;
+  width: 120px;
+  height: 30px;
+  background: url("https://files.catbox.moe/2wemux.png") no-repeat center center;
+  background-size: contain;
   display: inline-block;
-  filter: invert(var(--watermark-filter-invert)) sepia(var(--watermark-filter-sepia)) saturate(var(--watermark-filter-saturate)) hue-rotate(var(--watermark-filter-hue-rotate)) brightness(var(--watermark-filter-brightness)) contrast(var(--watermark-filter-contrast));
+  z-index: 9999;
 }
 
 .channelName-3KPsGw,
@@ -1685,16 +1689,4 @@ button.button__67645 .lottieIcon__5eb9b svg path {
 ::selection {
   background-color: var(--darkplus-bg);
   color: var(--darkplus-links);
-}
-#watermark {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  width: 80px; /* Adjust size */
-  height: auto;
-  background-image: url('https://files.catbox.moe/2wemux.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 1000;
-  opacity: 0.8;
 }
